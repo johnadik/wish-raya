@@ -37,8 +37,17 @@ body {
   top: 20vh;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+//modified music
+
 .one {
-  font-size: 4.5rem;
+  font-size: 2.5rem;
 }
 
 .one > img {
@@ -54,6 +63,14 @@ body {
 }
 
 .three {
+  font-size: 3rem;
+}
+
+.three-e {
+  font-size: 3rem;
+}
+
+.three-a {
   font-size: 3rem;
 }
 
@@ -276,7 +293,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   .six .hat {
