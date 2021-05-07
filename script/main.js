@@ -72,6 +72,34 @@ const animationTimeline = () => {
       },
       "+=2"
     )
+    .from(".three-e", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".three-e",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=2"
+    )
+    .from(".three-a", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".three-a",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=2"
+    )
     .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0
